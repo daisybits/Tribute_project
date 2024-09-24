@@ -1,0 +1,1277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151414;
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+li{
+  color: grey;
+}
+.navanchor{
+  text-decoration: none;
+}
+a {
+  
+  color: inherit;
+  font-size: 20px;
+  color: grey;
+}
+.navBar {
+  background-color: #151414;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.navItem {
+  padding: 20px 10px 10px 0px;
+}
+.container1 {        
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #151515;
+  place-content: center;
+  place-items: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.image img {
+  height: 100%; 
+  max-width: 100%;
+}
+
+.text {
+  display: block;
+  width: 100%; 
+}
+      
+.textOne h2 {
+  font-size: 55px;
+  color: #fff;
+  margin: 20px 0;
+}      
+.textOne p {
+  color: grey;
+  font-size: 30px;
+}
+.textTwo p {
+  color: grey;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+
+
+.container2 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 200px;
+  max-width: 100%;
+
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.containerTwoText {
+  padding: 50px;
+  flex: 2; 
+  font-size: 16px;
+  line-height: 1.6;
+  color: grey;
+}
+.containerTwoText p {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.containerTwoImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.containerTwoImage img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: 23px solid white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 0px, rgba(0, 0, 0, 0.3) 0px 0px 7px 0px;
+}
+.firstTwo {
+  font-size: 20px;
+  color: black;
+}
+
+.famousWork {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #151515;
+  position: relative;
+}
+
+.famousWorkHead h3 {
+  color: grey;
+  font-size: 25px;
+  padding: 0 5px;
+  margin-top: 35px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+}
+
+.famousWorkHead::after {
+  content: "";
+  display: block;
+  width: 93%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  margin: 15px auto 20px auto;
+}
+
+.famousWorkAbout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+ 
+}
+
+
+.famousWorkItem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  align-items: center;
+  width: 270px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.famousImage img {
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+  
+}
+
+.famousHeading h4 {
+  font-size: 25px;
+  font-weight: 90;
+  padding: 5px;
+  position: relative;  
+}
+
+.famousPara p {
+  width: 230px;
+  font-size: 13px;
+  color: #6d6868;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 20px 10px;
+  overflow: hidden;
+
+  height: auto;
+  max-height: none;
+}
+
+.hisfamilySection {
+  background-color: white;
+  padding: 20px;
+}
+.hisfamilySection h3 {
+  color: grey;
+  font-size: 25px;
+  padding: 0 5px;
+  margin-top: 35px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+}
+.hisfamily {
+  
+  padding: 56px 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.FamilyName p {
+  text-align: left;
+  font-size: 26px;
+}
+.Familydiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.FamilyPara {
+  display: flex;
+  text-align: left;
+  color: grey;
+}
+.Familydiv img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.Familydesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  text-align: center;
+}
+.socialMediaSection {
+  height: auto;
+  background-color: #151515;
+}
+.socialMediaHeading h3 {
+  padding: 0 5px;
+  font-size: 25px;
+  color: grey;
+  margin-top: 40px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.socialMediaCards {
+  display: flex;
+  justify-content: center;
+  gap: 270px;
+  padding-top: 70px;
+  padding-bottom: 200px;
+
+}
+
+.socialCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000000;
+  background-color: #fff;
+  padding-top: 20px;
+  height: 390px;
+  width: 280px;
+}
+
+.cardSection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+hr {
+  background-color: rgb(85, 84, 84);
+  height: 2px;
+  width: 100%;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.cardHeading h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.cardSection2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.cardDescription p {
+  font-size: 14px;
+  line-height: 1.3;
+  color: #666;
+  text-align: center;
+}
+
+.cardButton button {
+  font-size: 21px;
+  padding: 10px 60px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cardButton button:hover {
+  background-color: #565555;
+}
+
+.donationSection {
+  background-image: url("note.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 150px;
+  display: flex;
+}
+
+.donationContainer {
+  padding: 30px;
+  width: 350px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  
+}
+
+.donationContent {
+  text-align: center;
+  color: white;
+}
+
+.donationContent h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.donationContent p {
+  font-size: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: grey;
+}
+
+.donationContent button {
+  padding: 12px 85px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.donationContent button:hover {
+  background-color: #363535;
+}
+.aboutUs {
+  padding: 100px 150px;
+}
+.aboutUs h2 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.aboutUs p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 2.1;
+  color: rgb(81, 79, 79);
+}
+.contactFormWrapper h2 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.contact {
+  background-color: #151515;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.contactFormSection,
+.contactInfoSection {
+  width: 100%;
+}
+.contactInfoSection{
+    width: 50%;
+}
+
+.contactFormWrapper {
+  
+  padding: 0px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.contactForm {
+  color: grey;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm label {
+  font-size: 20px;
+  color: grey;
+  
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+}
+
+.contactForm button {
+  margin-top: 10px;
+  width: 150px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 600px;
+}
+
+.contactForm button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.contactInfoSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.linksSection,
+.addressSection {
+  color: #fff;
+  padding: 20px;
+  gap: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linksSection h3,
+.addressSection h3 {
+  font-size: 30px;
+  margin-bottom: 57px;
+  font-weight: 400
+}
+
+.linksSection ul,
+.addressSection ul {
+  list-style-type: none;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.linksSection li,
+.addressSection li {
+  margin-bottom: 10px;
+}
+
+.linksSection ul li:last-child,
+.addressSection ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 767px){    
+  .container1{
+    padding: 0 20px;
+    row-gap: 20px;
+    place-content: start;
+  }    
+  .textOne h2 {
+  font-size: 45px;
+}      
+.textOne p {
+  font-size: 20px;
+}
+.textTwo p {
+  font-size: 14px;
+}
+.image{
+  justify-content: start;
+}
+}
+@media (min-width: 768px){
+  .container1 {
+    grid-template-columns: repeat(2, 1fr);
+    padding:0 20px;
+    column-gap: 50px;
+  }
+  .textOne h2 {
+  font-size: 35px;
+}      
+.textOne p {
+  font-size: 25px;
+}
+.textTwo{
+  width: 350px;
+}
+.textTwo p {
+  font-size: 14px;
+}
+.image{
+  justify-content: end;
+}
+}
+@media (min-width: 1200px){
+  .container1{
+    gap: 0;
+  }
+  .image{
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+  .container2 {
+    padding: 56px 56px;
+    margin-left: 0px;
+    gap: 20px;
+  }
+
+  .containerTwoText {
+    font-size: 14px;
+  }
+  .containerTwoImage {
+    padding-right: 10px;
+  }
+  .containerTwoImage img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .containerTwoText p {
+    line-height: 1.4;
+  }
+  .famousWorkHead h3 {
+    font-size: 32px;
+  }
+  .hisfamilySection h3 {
+    font-size: 32px;
+  }
+  .hisfamily {
+    gap: 25px;
+  }
+  .FamilyName p {
+    font-size: 23px;
+  }
+  .Familydiv {
+    gap: 50px;
+  }
+  .Familydiv img {
+    height: 170px;
+    width: 170px;
+  }
+  .socialMediaHeading h3 {
+    font-size: 23px;
+    color: grey;
+    font-weight: 500;
+    padding-bottom:0;
+    
+  }
+  
+  .donationSection {
+    padding: 100px 60px;
+  }
+ 
+  .aboutUs {
+    padding: 80px 80px;
+  }
+  .aboutUs h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  
+  .container2 {
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 15px;
+  }
+  .containerTwoImage img {
+    width: 550px;
+    height: 550px;
+    
+    border: 11px solid white;
+  }
+  .containerTwoText {
+    padding: 20px 0px;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+  .containerTwoText p {
+    line-height: 1.6;
+  }
+  .famousWork {
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+  .hisfamilySection {
+    padding: 30px;
+  }
+  .hisfamilySection h3 {
+    margin-top: 0;
+  }
+  .containerTwoImage img {
+    width: 350px;
+    height: 350px;
+  }
+  .donationContainer {
+    padding: 30px;
+    width: 400px;
+    height: 560px;
+    padding: 30px;
+    
+  }
+  .donationSection {
+    padding: 100px 50px;
+  }
+  .donationContent p {
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  
+  .donationContent button {
+    padding: 12px 85px;
+    font-size: 30px;
+  }
+  
+  .aboutUs {
+    padding: 80px 40px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .containerTwoImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .containerTwoText {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .anotherSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .famousWorkAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .famousWorkItem {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .famousPara p {
+    padding: 0px 20px;
+  }
+
+  .hisfamilySection h3 {
+    margin: 0px !important;
+  }
+  .hisfamilySection h3 {
+    font-size: 25px;
+
+    margin-top: 40px;
+  }
+  .FamilyName p {
+    font-size: 18px;
+  }
+  .hisfamilySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 20px;
+  }
+  .Familydiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .socialMediaHeading{
+    padding-top: 20px;
+  }
+  .socialMedia ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .socialMediaCards {
+    padding: 30px 0;
+}
+
+  .Familydiv img {
+    height: 150px;
+    width: 150px;
+  }
+  .donationSection {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 0px;
+    padding: 30px 20px;
+    overflow-x: hidden;
+  }
+ 
+  
+  .donationContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    width: 270px !important;
+    height: 440px;
+  }
+
+  .aboutUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .aboutUs {
+    padding: 20px 50px;
+  }
+  .aboutUs h2 {
+    font-size: 30px;
+  }
+  .aboutUs p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .contact {
+    background-color: #000000;
+    padding: 40px 0px;
+  }
+  .contactContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormWrapper {
+    background-color: #000000;
+    padding: 0px 0px;
+  }
+  .contact {
+    font-size: 18px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px){
+  br {
+    display: none;
+  }
+
+  .socialMediaCards{
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    justify-content: center;
+    gap: 0px;
+    padding: 20px;
+  }
+
+  .containerTwoImage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .containerTwoText {
+    font-size: 14px;
+    gap: 0px;
+    padding: 0px;
+  }
+  .containerTwoText p {
+    margin-left: 0px;
+    margin-bottom: 26px;
+  }
+  .paratwo {
+    margin-top: 10px;
+  }
+
+  .anotherSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .famousWorkHead h3,
+  .socialMediaHeading h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .famousWorkAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .famousWorkItem {
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 0px;
+  }
+ 
+  .hisfamilySection h3 {
+    margin: 0px !important;
+  }
+  .hisfamilySection h3 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .FamilyName p {
+    font-size: 18px;
+  }
+  .hisfamilySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 20px;
+  }
+  .Familydiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .socialMedia ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Familydiv img {
+    height: 150px;
+    width: 150px;
+  }
+  .socialMediaHeading h3 {
+    padding-bottom: 0px;
+    font-size: 25px;
+  }
+  .linksSection,
+  .addressSection {
+    padding: 0px;
+  }
+  .contactInfoSection {
+    gap: 25px;
+  }
+
+  .donationContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 350px !important;
+    height: 510px;
+  }
+
+  .aboutUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .aboutUs {
+    padding: 20px;
+  }
+  .aboutUs h2 {
+    font-size: 30px;
+  }
+  .aboutUs p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .contact {
+    background-color: #000000;
+    padding: 20px 20px;
+  }
+  .contactContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactFormWrapper {
+    background-color: #000000;
+    padding: 0px 0px;
+  }
+  .contactInfoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    padding: 0px;
+    margin: 0px;
+    width: 100%; 
+  }
+
+  .contactForm {
+    width: auto;
+
+    gap: 15px;
+  }
+  .contact {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+    .contactContainer {
+        width: 100%;
+        justify-content: center;
+    }
+    .contactFormSection{
+        width: 700px;
+    }
+    .contactContainer{
+        gap: 80px;
+    }
+    .contactInfoSection {
+      width: 30%;
+    }
+}
+
+@media(min-width: 450px) and(max-width: 767px){
+    
+    .contactFormWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .contactForm label {
+        display: inline-block;
+        width: 200px;
+        color: white;
+        font-weight: bold;
+    }
+     
+        .donationContainer {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        .famousPara p {
+          padding: 10px 40px;
+        }
+    
+}
+@media (max-width: 374px){
+  
+
+  .donationSection {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 0px;
+    padding: 30px 20px;
+    overflow-x: hidden;
+  }
+ 
+  
+  .donationContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    width: 280px !important;
+    height: 460px;
+  }
+
+
+  
+
+
+
+.donationContent {
+  text-align: center;
+  color: white;
+}
+
+.donationContent h3 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.donationContent p {
+  font-size: 13px;
+  padding: 20px;
+  margin-bottom: 20px;
+  line-height: -0.5;
+  color: grey;
+}
+
+.donationContent button {
+  padding: 12px 85px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+  
+}
+@media(min-width: 620px) and(max-width: 767px){
+  .socialMediaCards{
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px){
+  .socialMediaCards{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  .socialMediaHeading{
+    padding-top: 20px;
+  }
+
+}
+
+@media(min-width: 600px) and (max-width: 612px) {
+  .cardSection2 {
+    gap: 15px !important;
+    padding: 10px !important;
+  }
+}
+
+@media(min-width:1025px) and (max-width:1773px){
+  .container2 {
+    padding: 100px 50px;
+    gap: 10px;
+  }
+  br {
+    display: none!important;
+  }
+  .containerTwoText {
+    padding: 20px;
+     
+  }
+  .containerTwoText p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+  }
+  .containerTwoImage img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 13px solid white;
+    object-fit: cover;
+  }
+  
+  
+}
+@media (min-width: 1024px) and (max-width: 1589px) {
+  .famousWorkContainer {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    gap: 20px;
+  }
+
+  
+}
+@media(min-width:1441px){
+  .image {
+    justify-content: end;
+}
+.textOne h2 {
+  font-size: 45px;
+}
+.hisfamily {
+ 
+  padding: 100px 150px;
+}
+
+
+.navItem {
+  font-size: 20px;
+  padding: 20px 21px 19px 0px;
+}
+.containerTwoText {
+  padding-right: 200px;
+}
+.famousWorkAbout {
+  gap: 12px;
+}
+
+
+.text {
+  margin-left:-180px;
+  display: block;
+  width: 459px;
+}
+.containerTwoImage{
+  justify-content: start;
+}
+.containerTwoImage img {
+  width: 500px;
+  height: 500px;
+ 
+  border: 15px solid white;
+  
+}
+.donationSection {
+  
+  padding: 100px 300px;
+}
+.aboutUs {
+  padding: 150px 300px;
+}
+
+.contactContainer {
+  gap: 13px;
+}
+.famousImage img{
+  /* width:100%; */
+  width: 100%;
+  height: 370px;  
+}
+.famousPara p{
+  width:100%;
+}
+.famousWorkAbout {
+  gap: 60px;
+}
+.famousWorkItem{
+  width: 300px;
+  
+}
+.donationSection {
+  
+  padding: 100px 400px;
+
+}
+}
+
+@media(min-width:599px) and (max-width:890px){
+  .socialMediaCards {
+    gap: 30px!important;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  .cardSection2 {
+    gap: 0;
+    padding: 0;
+  }
+  .cardDescription p {
+    padding: 30px;
+  }
+}
+
+
+
+@media(min-width:320px) and (max-width: 517px){
+  .hisfamily{
+    padding: 44px 28px;
+  }
+}
